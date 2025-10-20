@@ -1,100 +1,82 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="DA">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Portfolio</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="stylesheet.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;400&display=swap"
-      rel="stylesheet"
-    />
   </head>
   <body>
     <nav class="navbar">
-      <div class="nav-logo">Benjamin Ryborg</div>
+      <div class="logo">Benjamin Ryborg</div>
       <ul class="nav-links">
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#hero">Forside</a></li>
+        <li><a href="#about">Om mig</a></li>
+        <li><a href="#projects">Projekter</a></li>
+        <li><a href="#skills">Kompetencer</a></li>
+        <li><a href="#contact">Kontakt</a></li>
       </ul>
     </nav>
+    <section id="hero" class="hero">
+      <div class="hero-content">
+        <h1>Hej, jeg er Benjamin</h1>
+        <p class="tagline">Kreativ udvikler & problemløser</p>
+        <a href="#projects" class="cta-btn">Se mine projekter</a>
+      </div>
+    </section>
     <main>
-      <section id="about" class="section">
-        <div class="about-content">
-          <img
-            src="https://avatars.githubusercontent.com/u/9919?s=200&v=4"
-            alt="Profile"
-            class="profile-pic"
-          />
-          <div>
-            <h1>Hi, I'm Benjamin</h1>
-            <p>
-              A passionate programming student eager to build cool things and
-              learn new technologies. Welcome to my interactive portfolio!
-            </p>
-          </div>
-        </div>
+      <section id="about" class="about">
+        <h2>Om mig</h2>
+        <p>
+          Jeg brænder for programmering, design og at skabe spændende ting. Jeg
+          lærer altid nyt og elsker at være kreativ.
+        </p>
       </section>
-      <section id="skills" class="section">
-        <h2>Skills</h2>
-        <div class="skills-list">
-          <span class="skill">HTML</span>
-          <span class="skill">CSS</span>
-          <span class="skill">JavaScript</span>
-          <span class="skill">Python</span>
-          <span class="skill">Git</span>
-        </div>
-      </section>
-      <section id="projects" class="section">
-        <h2>Projects</h2>
-        <div class="projects-grid">
+      <section id="projects" class="projects">
+        <h2>Projekter</h2>
+        <div class="project-list">
           <div class="project-card">
-            <h3>Calculator</h3>
-            <p>A simple calculator web app built with JavaScript.</p>
-            <a href="../../JavaScript/Calculator/index.html" target="_blank"
-              >View Project</a
-            >
-          </div>
-          <div class="project-card">
-            <h3>Higher or Lower</h3>
-            <p>A fun number guessing game using JavaScript.</p>
+            <h3>Lommeregner</h3>
+            <p>En simpel og stilfuld lommeregner bygget med JavaScript.</p>
             <a
-              href="../../JavaScript/Higher or Lower/index.html"
+              href="../../../../Programmering/JavaScript/Calculator/index.html"
               target="_blank"
-              >View Project</a
+              >Se projekt</a
+            >
+          </div>
+          <div class="project-card">
+            <h3>Højere eller Lavere</h3>
+            <p>Et sjovt gæt-et-tal spil. Prøv at slå din egen rekord!</p>
+            <a
+              href="../../../../Programmering/JavaScript/Higher or Lower/index.html"
+              target="_blank"
+              >Se projekt</a
             >
           </div>
         </div>
       </section>
-      <section id="contact" class="section">
-        <h2>Contact</h2>
-        <p>Let's connect! You can reach me at:</p>
-        <ul class="contact-list">
-          <li>
-            Email:
-            <a href="mailto:ryborg.benjamin@gmail.com"
-              >ryborg.benjamin@gmail.com</a
-            >
-          </li>
-          <li>
-            GitHub:
-            <a href="https://github.com/LootingBery" target="_blank"
-              >github.com/LootingBery</a
-            >
-          </li>
-          <li>
-            LinkedIn:
-            <a href="https://linkedin.com/in/benjamin-ryborg" target="_blank"
-              >linkedin.com/in/benjamin-ryborg</a
-            >
-          </li>
+      <section id="skills" class="skills">
+        <h2>Kompetencer</h2>
+        <ul class="skills-list">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>UI/UX Design</li>
+          <li>Problemløsning</li>
         </ul>
+      </section>
+      <section id="contact" class="contact">
+        <h2>Kontakt</h2>
+        <p>
+          Vil du i kontakt? Send mig en mail på
+          <a href="mailto:ryborg.benjamin@gmail.com"
+            >ryborg.benjamin@gmail.com</a
+          >
+        </p>
       </section>
     </main>
     <footer>
-      <p>&copy; 2025. All rights reserved.</p>
+      <p>Skabt af Benjamin Ryborg &copy; 2025</p>
     </footer>
   </body>
 </html>
